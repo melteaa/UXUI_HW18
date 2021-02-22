@@ -1,0 +1,122 @@
+
+body{
+    background-color: #FFFDF0; /*makes the entire page cream colored*/
+}
+.container{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.nav_div0 {
+    /*this should take care of the entire nav bar including the nav items and the icon*/
+    width: 100%;/*this should make the nav bar span the width of the sceen*/
+    display: inline;/*makes everything a row*/
+    vertical-align: middle;/*should align the nav items and the icons so it's centered*/
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.nav_div{
+    /*takes care of the nav items only*/
+    width: 90%;    /*acts like a margin so items aren't butted to the right*/
+    display: flex;/*positions things*/
+    flex-direction: row;
+    justify-content: flex-end;/*sets the navigations to the right*/
+
+}
+#header_icon_edit{
+    margin-top: 50px;/*should push the icon down so it's not butted up against the top but it's not working !*/
+}
+.nav_item {
+    font-family: 'Alegreya Sans', sans-serif;/*type of font*/
+    font-size: 14px;/*size of font*/
+    display: inline-block;/*sets the items in a line rather than a stack*/
+
+    margin-left: 15px;/*puts space between the items */
+    margin-right: 15px;/*puts space between the items */
+    color: #024890; /*color of the words*/
+}
+.nav_item_big {
+    font-family: 'Alegreya Sans', sans-serif;/*type of font*/
+    font-size: 14px;/*size of font*/
+    font-weight: bold;
+    display: inline-block;/*sets the items in a line rather than a stack*/
+    margin-left: 20px;/*puts space between the items */
+    text-decoration: underline;
+    text-decoration-color: #DD5334;/*this entire section should have an underline running under the whole nav bar*/
+    color:#DD5334; /*color of the words*/
+}
+.top_half {
+    display: flex;
+    justify-content: center;/*should horizontally align things so it's all centered*/
+}
+.intro{
+    display: flex;/*because the intro is it's own container*/
+    height: 500px;
+    width: 400px;
+    flex-direction: column;/*should stack items*/
+    justify-content: center;/*makes it centered in the div*/
+    align-items: flex-start;/*makes it left aligned*/
+    margin-left: 75px;/*gives the intro space so that it's not butted against the image*/
+
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 36px;
+    font:bold;
+    line-height: 40px;
+    color:#024890; 
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color:#024890; 
+    margin-bottom: 50px;
+
+}
+
+.bottom_half{
+    /*just the collab box but this sets up the positioning*/
+    width:100%; /*spans the entire width of the screen*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;/*puts the content to the right of the screen*/
+    align-content: flex-end;
+
+
+}
+.Collab_Box{
+    /*container fot the information*/
+    background-color: #80A3C0;
+    height: 150px;
+    width: 300px;
+    border-radius: 16px;/*rounds the corners*/
+    text-align: center;
+    padding: 5px 20px;
+    justify-content: center;
+    margin-right: 347px;/*so it doesn't butt to the right of the screen*/
+
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 36px;
+    font:bold;
+    color:#FFFDF0; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.button{
+    display:inline-block;
+    text-align:center;
+    padding:5px 20px;
+    width: fit-content;
+    background-color: #024890;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    color: #FFFDF0;
+    border-radius: 16px;
+}
